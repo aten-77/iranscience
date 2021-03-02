@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min_.css">
+    <link rel="stylesheet" href="1main.css">
+    <link rel="stylesheet" href="2.css">
+    <title>عضویت</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container-fluid">
+        <div class=" bg-image card-img"> </div>
+        <div class="bg-text col-md-12 align-middle w-50">
+            <h1 class="card-text display-5">IRAN SCIENCE</h1>
+        </div>
+    </div>
+    <!-- navigationBar -->
+    <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: 10px;">
+            <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="1main.html">
+                    <img src="image/logo24.png" width="150" height="40px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="1main.html">صفحه نخست</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                دسته بندی موضوعات
+                            </a>
+                            <ul class="dropdown-menu myul" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="mobile.html">موبایل</a></li>
+                                <li><a class="dropdown-item " href="computer.html">کامپیوتر</a></li>
+                                <li><a class="dropdown-item " href="game.html">بازی</a></li>
+                                <li><a class="dropdown-item " href="hardware.html">سخت افزار</a></li>
+                                <li><a class="dropdown-item " href="Artificial intelligence.html">هوش مصنوعی</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="connect.html">ارتباط با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="signin.html">عضویت</a>
+                        </li>
+                        <form class="d-flex ">
+                            <input class="form-control me-2 bg-dark btn-outline-info text-info" type="search" placeholder="جستجو" aria-label="Search">
+                            <button class="btn  bg-secondary btn-outline-info form-control" type="submit"> <svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z">
+                                    </path>
+                                </svg></button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Containter -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Content -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 MyBorder">
+                <div class="row MyBorder">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-9 mx-auto">
+                                <div class="card card-signin flex-row my-5">
+                                    <div class="card-img-left d-none d-md-flex">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">ثبت نام</h5>
+                                        <form class="form-signin">
+                                            <div class="form-label-group">
+                                                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                                                <label for="inputUserame">نام کاربری</label>
+                                            </div>
+
+                                            <div class="form-label-group">
+                                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
+                                                <label for="inputEmail">ایمیل</label>
+                                            </div>
+
+                                            <hr>
+
+                                            <div class="form-label-group">
+                                                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                                <label for="inputPassword">رمز عبور</label>
+                                            </div>
+
+                                            <div class="form-label-group">
+                                                <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
+                                                <label for="inputConfirmPassword">تکرار رمز عبور</label>
+                                            </div>
+                                            <div class="text-center">
+                                                <button class="btn btn-lg btn-primary btn-block text-uppercase " type="submit">ثبت نام</button>
+                                                <a class="d-block text-center mt-2 small" href="#">عضویت</a>
+                                                <hr class="my-4">
+                                                <button class="btn btn-lg btn-google btn-block text-uppercase  " type="submit"><i class="fab fa-google mr-2"></i> ثبت نام با گوگل</button><br>
+                                                <button class="btn btn-lg btn-facebook btn-block text-uppercase " type="submit"><i class="fab fa-facebook-f mr-2"></i> ثبت نام با فیس بوک</button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class=" container-fluid ">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12">
+                    <footer class="bg-dark shadow ">
+                        <div class="container py-1 ">
+                            <div class="row py-1 ">
+                                <div class="col-lg-12 col-md-12 mb-12 mb-lg-12 text-center ">
+                                    <a class="nav-link active " aria-current="page " href="1main.html ">
+                                        <img src="image/logo24.png " alt=" " width="130 " class="mb-1 ">
+                                    </a>
+                                    <p class="font-italic text-muted ">سایت ایران ساینس</p>
+                                    <ul class="list-inline mt-3 ">
+                                        <li class="list-inline-item ">
+                                            <a href="https://www.facebook.com/" target="_blank " title="facebook "> <img src="image/face.png " width="40 "></a>
+                                        </li>
+                                        <li class="list-inline-item ">
+                                            <a href="https://www.instagram.com/" target="_blank " title="instagram "> <img src="image/insta.png " width="40 "></a>
+                                        </li>
+                                        <li class="list-inline-item ">
+                                            <a href="https://twitter.com/?lang=en" target="_blank " title="twitter "> <img src="image/twit.png " width="40 "></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 mb-12 mb-lg-12 text-center ">
+                                    <!-- <h6 class="text-uppercase font-weight-bold mb-4 ">Company</h6> -->
+                                    <ul class="list-unstyled mb-0 ">
+                                        <li class="mb-0 "><a href="signin.html " class="text-light text-decoration-none ">عضویت</a></li>
+                                        <li class="mb-0 "><a href="1main.html " class="text-light text-decoration-none ">صفحه نخست</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Copyrights -->
+                        <div class="bg-dark py-1 ">
+                            <div class="container text-center ">
+                                <p class="text-muted mb-0 py-2 ">All rights reserved</p>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- --------- -->
+                </div>
+            </div>
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script src="1.js"></script>
+
+</html>
